@@ -6,23 +6,22 @@
 # --- Required options --- #
 
 # Name of website
-title: Zach Bengtsson
+title: Celeste Valdivia
 
 # Your name to show in the footer
-author: Zach Bengtsson
+author: Celeste Valdivia
 
 # List of links in the navigation bar
 navbar-links:
-  CV: "cv/ZacharyBengtsson_CV_AsOf_Feb22.pdf"
+  CV: "2022 Celeste Valdivia CV.pdf"
   About: "aboutme"
   Lab Notebook: "notebook"
-  Resources:
 
 # --- Logo --- #
 
 # Image to show in the navigation bar - works best with a square image
 # Remove this parameter if you don't want an image in the navbar
-avatar: "https://avatars.githubusercontent.com/u/91245841?v=4"
+avatar: "https://avatars.githubusercontent.com/u/114775924?s=400&u=ac323874acba109b05b1e5def35f43bd00a65fde&v=4"
 
 # By default, the image is cut into a circle. You can disable this behaviour by setting 'round-avatar: false'
 round-avatar: true
@@ -37,13 +36,13 @@ round-avatar: true
 # Select the social network links that you want to show in the footer.
 # Uncomment the links you want to show and add your information to each one.
 social-network-links:
-  email: "zbengt@uw.edu.edu"
+  email: "cvaldi@uw.edu"
 #  facebook: deanattali
-  github: zbengt
+  github: valeste
 #  twitter: daattali
 #  patreon: DeanAttali
 #  reddit: yourname
-  linkedin: zachary-bengtsson
+  linkedin: celestevaldivia
 #  xing: yourname
 #  stackoverflow: "3943160/daattali"
 #  snapchat: deanat78
