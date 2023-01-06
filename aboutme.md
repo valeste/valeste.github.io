@@ -15,6 +15,6 @@ I graduated from the University of California, Davis in 2020 with a bachelor of 
 ### Contact
  **Email:** [cvaldi@uw.edu](mailto:cvaldi@uw.edu)
 
- **Office:** School of Aquatic and Fishery Sciences, FTR 134  
+ **Office:** School of Aquatic and Fishery Sciences, Fisheries Teaching and Research Building (FTR), Room 134  
  
  **Mailing address:** School of Aquatic and Fishery Sciences, University of Washington, 1122 NE Boat Street, Room 116, Seattle, WA 98105
