@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Summary of Autumn Quarter
-date: '2021-01-05'
+date: '2023-01-05'
 categories: summary
 tags: retrospective
 ---
