@@ -18,8 +18,8 @@ Edition). After, I began combing through the document "NSF proposal
 grant references" in the Joint NSF Tunicate Google Drive to become up to
 date with the latest methods in culturing *B. schlosseri* epithelial
 cells. I found *Epithelial cell cultures from Botryllus schlosseri
-palleal buds: accomplishments and challenges*, 2003 by (Rabinowitz &
-Rinkevich)[https://doi.org/10.1007/s11022-004-2087-9] particularly
+palleal buds: accomplishments and challenges*, 2003 by [Rabinowitz &
+Rinkevich](https://link.springer.com/article/10.1007/s11022-004-2087-9) particularly
 useful. Collaborating with Valerie Dong from the UC Davis (UCD) lab, we
 began adapting the Rabinowitz & Rinkevich 2003 methods into a standard
 operating procedure that would become applicable to Aim 1 of the NSF
@@ -30,13 +30,12 @@ methodologies for blood cell isolation.
 ### Visiting Stanford's Hopkins Marine Station
 
 In November 2022 some members from the Gardell and Kueltz Labs visited
-(Stanford's Tunicate Lab Hopkins Marine Station)
-[https://marinestemcell.stanford.edu/] (HMS) for a two-day workshop
+[Stanford's Tunicate Lab Hopkins Marine Station](https://marinestemcell.stanford.edu/) (HMS) for a two-day workshop
 led by Dr. Ayelet Voskoboynik. This workshop covered a broad range of
 topics such as: 
 - General *B. schlosseri* anatomy and biology 
 - Practice identifying the seven stages of cyclical asexual reproduction - Best practices in colony care and maintenance 
-- Methods in dissection of whole zooids and embryos - Use of the (*B. schlosseri* Genome Project) [http://botryllus.stanford.edu/botryllusgenome/] browser 
+- Methods in dissection of whole zooids and embryos - Use of the [*B. schlosseri* Genome Project](http://botryllus.stanford.edu/botryllusgenome/) browser 
 - Feedback regarding each labs respective methods and set-up
 
 ### Practicing the workflow of primary cell culturing
