@@ -17,8 +17,8 @@ textbook titled Culture of Animal Cells by R. Ian Freshney (5th
 Edition). After, I began combing through the document "NSF proposal
 grant references" in the Joint NSF Tunicate Google Drive to become up to
 date with the latest methods in culturing *B. schlosseri* epithelial
-cells. I found *Epithelial cell cultures from Botryllus schlosseri
-palleal buds: accomplishments and challenges*, 2003 by [Rabinowitz &
+cells. I found [*Epithelial cell cultures from Botryllus schlosseri
+palleal buds: accomplishments and challenges*, 2003 by Rabinowitz &
 Rinkevich](https://link.springer.com/article/10.1007/s11022-004-2087-9) particularly
 useful. Collaborating with Valerie Dong from the UC Davis (UCD) lab, we
 began adapting the Rabinowitz & Rinkevich 2003 methods into a standard
