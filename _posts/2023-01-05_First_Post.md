@@ -34,4 +34,3 @@ The colonies were transferred into the recirculating seawater system immediately
 Overall, the colonies health seemed to be in decline over the course of being kept in the recirculating seawater system as the number of zooids per colony reduced. Regardless, at day 4, I took the colonies and submerged them for 24 hours in a solution of Artifical Seawater and Gentamycin (ASW-G) (Rabinowitz & Rinkevich 2003) to begin the initial steps of cell isolation. The salinity of this solution was too high (75 PPT) as I misinterpreted the methods described (ASW needed at least a 1:1 dilution). After the 24 hour ASW-G treatment all 7 colonies exposed no longer had visible blood circulation. Regardless, I practiced dissecting out the zooids of the colonies using dissection pin needles. 
 
 The exercise was useful but will need to be redone with the correct solutions to proeed into the following steps of the protocol.
-
