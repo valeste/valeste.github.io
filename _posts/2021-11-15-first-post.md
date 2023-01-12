@@ -29,7 +29,7 @@ methodologies for blood cell isolation.
 
 ### Visiting Stanford's Hopkins Marine Station
 
-In November 2022 some members from the Gardell and Kueltz Labs visited
+In November 2022 some members from the Gardell and [Kueltz](https://panoramaweb.org/Kueltz%20Lab%20-%20UCDavis/project-begin.view?) Labs visited
 [Stanford's Tunicate Lab Hopkins Marine Station](https://marinestemcell.stanford.edu/) (HMS) for a two-day workshop
 led by Dr. Ayelet Voskoboynik. This workshop covered a broad range of
 topics such as: 
