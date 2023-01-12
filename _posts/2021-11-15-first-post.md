@@ -34,8 +34,10 @@ In November 2022 some members from the Gardell and Kueltz Labs visited
 led by Dr. Ayelet Voskoboynik. This workshop covered a broad range of
 topics such as: 
 - General *B. schlosseri* anatomy and biology 
-- Practice identifying the seven stages of cyclical asexual reproduction - Best practices in colony care and maintenance 
-- Methods in dissection of whole zooids and embryos - Use of the [*B. schlosseri* Genome Project](http://botryllus.stanford.edu/botryllusgenome/) browser 
+- Practice identifying the seven stages of cyclical asexual reproduction 
+- Best practices in colony care and maintenance 
+- Methods in dissection of whole zooids and embryos 
+- Use of the [*B. schlosseri* Genome Project](http://botryllus.stanford.edu/botryllusgenome/) browser 
 - Feedback regarding each labs respective methods and set-up
 
 ### Practicing the workflow of primary cell culturing
