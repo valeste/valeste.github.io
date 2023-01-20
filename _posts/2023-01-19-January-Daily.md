@@ -1,7 +1,7 @@
 ---
 layout: post
 title: January Daily Entries
-date: '2023-01-05 to Present'
+date: '2023-01-19'
 categories: daily
 tags: summary
 ---
