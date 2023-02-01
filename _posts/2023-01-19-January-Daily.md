@@ -63,8 +63,8 @@ I TA'ed this day and took the students on a field trip to different sites in the
 ### 01-23-2022 to 01-27-2023
 This week I focused on refining the experimental design schematic to break down the timeline of the preliminary steps needed to begin trials for optimization of culture conditions. The important aspect of my schematic right now is what I call "step 0.1" which involves a two week period of established and uncontaminated epithelial cell growth prior to the commencement of any experimental trials.
 
-![image](https://github.com/valeste/valeste.github.io/blob/master/assets/img/Mussel_HeatStress_Ferritin.png?raw=true)
-![Cell culturing protocol pt.2](slide_2.jpeg)
+![image](https://github.com/valeste/valeste.github.io/blob/master/assets/img/Schematics/slide_1.jpeg?raw=true)
+![image](https://github.com/valeste/valeste.github.io/blob/master/assets/img/Schematics/slide_2.jpeg?raw=true)
 
 I also read up on organic osmolytes since it is a variable I would be interested in manipulating in these trials since tunicates are osmoconformers and regularly uptake organic osmolytes to offset inorganic ion stress. Organic osmolytes I would be interested in including in the complete culture media would be 1) taurine, 2)myo-inositol, 3) sorbitol, 4) glycerol, 5) glycine-betaine, and 6) sucrose.
 
