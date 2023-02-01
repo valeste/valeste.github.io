@@ -56,3 +56,20 @@ Valerie also clarified that the methods of stress induced evolution outlined in 
 Made a more organized tunicate log to use for animals collected in the field and brought to our recirculating system at UW Tacoma. Trying to integrate reading research article a day from the NSF grant reference list that may aid in developing a cell culture optimization experimental design. 
 
 I attempted to set up software for new Nikon Stereoscopic Zoom Microscope SMZ745T with attached Excilis HD Lite Camera but could not find flash drive necessary for this or . I also expect to recieve Coral Rx tomorrow, a treatment to remove parasites that our collaborators at UCD have been using to treat colonies brought in from the field. I plan to collect colonies next Tuesday and integrate that dipping protocol into our intake process.
+
+### 01-20-2023
+I TA'ed this day and took the students on a field trip to different sites in the Sound to sample for marine bacteria.
+
+### 01-23-2022 to 01-27-2023
+This week I focused on refining the experimental design schematic to break down the timeline of the preliminary steps needed to begin trials for optimization of culture conditions. The important aspect of my schematic right now is what I call "step 0.1" which involves a two week period of established and uncontaminated epithelial cell growth prior to the commencement of any experimental trials.
+
+![Cell culturing protocol pt.1](slide_1.png)
+![Cell culturing protocol pt.2](slide_2.png)
+
+I also read up on organic osmolytes since it is a variable I would be interested in manipulating in these trials since tunicates are osmoconformers and regularly uptake organic osmolytes to offset inorganic ion stress. Organic osmolytes I would be interested in including in the complete culture media would be 1) taurine, 2)myo-inositol, 3) sorbitol, 4) glycerol, 5) glycine-betaine, and 6) sucrose.
+
+### 01-30-2023
+Today I went to my FISH 549 course and was introduced to relational tables and PostgreSQL. I also went to FISH 521 where we discussed how we may go about selecting a journal in which to publish and the overarching steps taken to publish, from writing the methods section, assigning roles in writing, addressing reviewer comments, and final formatting and publishing of your manuscript.
+
+### 01-31-2023
+Today I organized the materials list that I expect I will need to begin the preliminary epithelial growth procedure (step 0.1). Since there is no standard operating procedure for the methods I should follow for establishing cells through step 0.1, I have been synthesizing the information across methods sections that successfully established primary epithelial cell cultures of _B. schlosseri_. As such, I needed to make a formal table that included all the materials I would need, the associated manufacturer's, catalog number, and justification. This is especially important for my sake sine there are so many different solutions required over the course of step 0.1 that need to be made in-house.
