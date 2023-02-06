@@ -1,7 +1,7 @@
 ---
 layout: post
-title: Running Log of February Daily Entries
-date: '2023-02-01'
+title: February Daily Entries
+date: '2023-02-05'
 categories: daily
 tags: summary
 ---
@@ -17,3 +17,6 @@ Today I continued working on my introduction research proposal draft. I also wen
 
 ### Feb 04, 2023
 I am spending today reading up on reviews of marine invertebrate cell culture, finishing my draft for the intro to my research proposal, completing my assignment for FISH 549, and ideally, if there is time, begin grading the pre-lab's for my TA section.
+
+### Feb 05, 2023
+Completed some assignments for my courses and graded pre-lab assignments.
