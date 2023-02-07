@@ -1,7 +1,7 @@
 ---
 layout: post
 title: February Daily Entries
-date: '2023-02-05'
+date: '2023-02-06'
 categories: daily
 tags: summary
 ---
@@ -20,3 +20,6 @@ I am spending today reading up on reviews of marine invertebrate cell culture, f
 
 ### Feb 05, 2023
 Completed some assignments for my courses and graded pre-lab assignments.
+
+### Feb 06, 2023
+Today I went to my all three of my classes. I learned about different aspects of metadata, the process of looking for journals to publish in and writing cover letters for publication submissions, and reflected with my peers on our course observation assignments by specifically detailing the methods of active learning employed in those courses we observed. 
