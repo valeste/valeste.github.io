@@ -1,7 +1,7 @@
 ---
 layout: post
 title: February Daily Entries
-date: '2023-02-06'
+date: '2023-02-07'
 categories: daily
 tags: summary
 ---
@@ -23,3 +23,6 @@ Completed some assignments for my courses and graded pre-lab assignments.
 
 ### Feb 06, 2023
 Today I went to my all three of my classes. I learned about different aspects of metadata, the process of looking for journals to publish in and writing cover letters for publication submissions, and reflected with my peers on our course observation assignments by specifically detailing the methods of active learning employed in those courses we observed. 
+
+### Feb 07. 2023
+Much of my day was spent prepping for this weeks FISH 270 labs. This involved figuring out how to train students on instruments like a pH meter, DO meter, hemocytometer, and fluorometer. I also met with Dr. Julie Masura, UWT, to be trained in the basics of phase contrast microscopy. The Olympus B202 fluorescence microscope will likely used down the line when fixing cells to investigate cell morphology and structure. I also met with the Gardell Lab to discuss plans for the lab website, including additional features that need to be further developed.
