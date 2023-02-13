@@ -58,6 +58,7 @@ plot(x = blueJayData$Month, y = blueJayData$snow_dep_atleast,
 axis(side = 4, at = pretty(range(blueJayData$snow_dep_atleast)))
 mtext("Pecieved snow depth (inches)", side = 4, line = 2)
 ```
-![pdf](https://github.com/valeste/valeste.github.io/blob/master/assets/img/tidyTuesFeb13.pdf)
+![image](https://github.com/valeste/valeste.github.io/blob/master/assets/img/tidyTuesFeb13.jpg?raw=true)
 
 In retrospect I don't think I properly cleaned my data to visualize the question I had.
+
