@@ -1,7 +1,7 @@
 ---
 layout: post
 title: February Daily Entries
-date: '2023-02-07'
+date: '2023-02-17'
 categories: daily
 tags: summary
 ---
