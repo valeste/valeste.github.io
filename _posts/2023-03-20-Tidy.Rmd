@@ -2,7 +2,7 @@
 title: "Tidy Tuesday"
 author: "Celeste Valdivia"
 date: '2023-03-21'
-output: html_document
+output: md_document
 ---
 
 ```{r setup, include=FALSE}
