@@ -1,0 +1,94 @@
+---
+title: "Tidy Tuesday"
+author: "Celeste Valdivia"
+date: '2023-03-21'
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+
+# Setting up packages and downloading data:
+``` {r, echo = TRUE, message= FALSE, warning=FALSE}
+#requirements
+library(tidyverse)
+library(ggplot2)
+library(viridis)
+library(hrbrthemes)
+#reading the data in manually
+languages <- readr::read_csv('https://raw.githubusercontent.com/rfordatascience/tidytuesday/master/data/2023/2023-03-21/languages.csv')
+
+```
+
+# Exploring the data set:
+```{r, summary, echo=FALSE}
+languages %>% summary() 
+
+```
+It looks like there are a lot of NA's in most of the columns. 
+
+# Objective
+After a quick skim of  the data, I have decided that I am interested in the correlation of material availability across a wide range of instructional depth to the number of users over time.
+## Questions
+1. Are the most popular languages the ones with the most documentation out there?
+2. Has the methods for documenting programming languages changed over time? 
+
+# Creating exploratory plots:
+```{r, exploratory plots}
+hist(languages$book_count,
+     breaks = 20,
+     xlab = "Computed number of books avalable at isbndb.com",
+     main = "Histogram of book per programming language." )
+abline(v = mean(languages$book_count), col='red', lwd = 3)
+legend("topright", legend = "Mean number of books", col = 'red', lwd = 3)
+
+hist(languages$number_of_users,
+     breaks = 20,
+     xlab = "Number of users",
+     main = "Histogram of the number of users per programming language." )
+abline(v = mean(languages$number_of_users), col='blue', lwd = 3)
+legend("topright", legend = "Mean number of users", col = 'blue', lwd = 3)
+
+```
+
+Based off of these exploratory plots, it's clear that we need to do some transformation on the continuous data since it's so skewed. I figured I should create new columns for the number of users and book count using lognormal transformations to be able to capture the nuances in this wide range of data. 
+
+# Transforming and manipulating data:
+```{r, transoriming the data}
+languages2 <- 
+  languages %>% 
+  mutate(log_users = log(number_of_users + 1)) %>%
+  filter(log_users > 0) %>% #removing programming languages with no users
+  mutate(log_books = log(book_count + 1)) %>%
+  mutate(website2 = ifelse(website == github_repo, yes = NA, no = website))  %>% #making a new website column where github_repo isn't repeated
+  mutate(dupes = website == github_repo) %>% #making a column to quickly navigate to the rows that have duplicate entries
+  mutate(score = as.factor(as.integer(!is.na(website2)) + as.integer(!is.na(github_repo)))) %>%
+  filter(appeared >= 1957) %>%
+  select(title, appeared, log_users, wikipedia, log_books, website2, github_repo, score, dupes, book_count) %>%
+  arrange(desc(log_users))
+
+summary(languages2)
+
+head(languages2)
+```
+I added in a few columns that help me evaluate the metrics I want to use. I noticed that there were duplicate entries for 48 rows where the website and GitHub repo values were the same thing. I want to get rid of the website entries for those that have duplicate values and set them to NA. 
+
+I also was checking out if all the programming languages had Wikipedia pages. This helped me decide that I couldn't simply use Wikipedia daily page views as a metric of material usage alone.
+
+I also removed programming languages from the data set that didn't have any users. Most of those also had NAs in the materials columns.
+
+# Creating plot
+```{r}
+ggplot(languages2, aes(x = appeared, y = log_users, color = score, size = log_books)) +
+  geom_point(alpha=0.5) +
+  scale_size(range = c(1, 8), name="Log Book Count") +
+  scale_color_viridis(discrete = TRUE , option = "C")+
+  theme(legend.position="right") +
+  xlab("Year Programming Language Appeared")+
+  theme_ipsum()+
+  ylab("Log Number of Users")
+
+
+```
