@@ -27,15 +27,16 @@ languages <- readr::read_csv('https://raw.githubusercontent.com/rfordatascience/
 languages %>% summary() 
 
 ```
-It looks like there are a lot of NA's in most of the columns. 
+It looks like there are a lot of NA's in most of the columns. But I am not worried about removing them since there are none in the data I want to extract.
 
 # Objective
-After a quick skim of  the data, I have decided that I am interested in the correlation of material availability across a wide range of instructional depth to the number of users over time.
+After a quick skim of  the data, I have decided that I am interested in the correlation of material availability to the number of users over time.
+
 ## Questions
 1. Are the most popular languages the ones with the most documentation out there?
 2. Has the methods for documenting programming languages changed over time? 
 
-# Creating exploratory plots:
+# Creating exploratory plots with base R:
 ```{r, exploratory plots}
 hist(languages$book_count,
      breaks = 20,
@@ -53,42 +54,50 @@ legend("topright", legend = "Mean number of users", col = 'blue', lwd = 3)
 
 ```
 
-Based off of these exploratory plots, it's clear that we need to do some transformation on the continuous data since it's so skewed. I figured I should create new columns for the number of users and book count using lognormal transformations to be able to capture the nuances in this wide range of data. 
+Based off of these exploratory plots, it's clear that we need to do some transformation on the continuous data since it's so skewed. I figured I should create new columns for the number of users and book count using lognormal transformations.
 
 # Transforming and manipulating data:
 ```{r, transoriming the data}
 languages2 <- 
   languages %>% 
-  mutate(log_users = log(number_of_users + 1)) %>%
+  mutate(log_users = log(number_of_users + 1)) %>% #lognormal transformation
   filter(log_users > 0) %>% #removing programming languages with no users
-  mutate(log_books = log(book_count + 1)) %>%
+  mutate(log_books = log(book_count + 1)) %>% #lognormal transformation
   mutate(website2 = ifelse(website == github_repo, yes = NA, no = website))  %>% #making a new website column where github_repo isn't repeated
   mutate(dupes = website == github_repo) %>% #making a column to quickly navigate to the rows that have duplicate entries
-  mutate(score = as.factor(as.integer(!is.na(website2)) + as.integer(!is.na(github_repo)))) %>%
-  filter(appeared >= 1957) %>%
-  select(title, appeared, log_users, wikipedia, log_books, website2, github_repo, score, dupes, book_count) %>%
+  mutate(score = as.factor(as.integer(!is.na(website2)) + as.integer(!is.na(github_repo)))) %>% #creating a score column that adds up whether the programming language has online resources such as a website or GitHub repo. I decided not to include Wikipedia pages in this score since it is not likely to have much information regarding how to use the language.
+  filter(appeared >= 1957) %>% #removing any programming languages from before 1957 since a quick Google search says that computer programming as coding came about in the late 1950s with the invention of FORTRAN, LISP and COBOL.
+  select(title, appeared, log_users, log_books, website2, github_repo, score, dupes, book_count) %>%
   arrange(desc(log_users))
-
-summary(languages2)
 
 head(languages2)
 ```
 I added in a few columns that help me evaluate the metrics I want to use. I noticed that there were duplicate entries for 48 rows where the website and GitHub repo values were the same thing. I want to get rid of the website entries for those that have duplicate values and set them to NA. 
 
-I also was checking out if all the programming languages had Wikipedia pages. This helped me decide that I couldn't simply use Wikipedia daily page views as a metric of material usage alone.
-
-I also removed programming languages from the data set that didn't have any users. Most of those also had NAs in the materials columns.
+I also removed programming languages from the data set that didn't have any users. Most of those also had NAs in the columns I wanted to use.
 
 # Creating plot
 ```{r}
 ggplot(languages2, aes(x = appeared, y = log_users, color = score, size = log_books)) +
   geom_point(alpha=0.5) +
-  scale_size(range = c(1, 8), name="Log Book Count") +
+  scale_size(range = c(1, 12), name="Log Book Count") +
   scale_color_viridis(discrete = TRUE , option = "C")+
   theme(legend.position="right") +
   xlab("Year Programming Language Appeared")+
   theme_ipsum()+
   ylab("Log Number of Users")
 
+ggplot(languages2, aes(x = appeared, y = log_users, color = score, size = book_count)) +
+  geom_point(alpha=0.5) +
+  scale_size(range = c(1, 12), name="Book Count") +
+  scale_color_viridis(discrete = TRUE , option = "C")+
+  theme(legend.position="right") +
+  xlab("Year Programming Language Appeared")+
+  theme_ipsum()+
+  ylab("Log Number of Users")
 
 ```
+
+Based off trends in the plot, it seems like the most popular newer (appearing after the year 2000) languages are likely to have a website and GitHub repo in addition to having several books on the language. The most popular languages however have for sure the most number of books (in the 400s).
+
+I decided to make two plots with the size of the bubble being dependent on either the log(book_count) calculation or the raw count. I feel like it is more obvious that the most popular languages have more books based on the latter. However, that data is obviously very skewed so I'm curious to know what is best practice. Maybe, my initial thoughts of lognormal transformation of the data doesn't necessarily mean that I will be better able to communicate it.
