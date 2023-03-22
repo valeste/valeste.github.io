@@ -77,7 +77,7 @@ I added in a few columns that help me evaluate the metrics I want to use. I noti
 I also removed programming languages from the data set that didn't have any users. Most of those also had NAs in the columns I wanted to use.
 
 # Creating plot
-```{r}
+```{r, explanatory plot}
 ggplot(languages2, aes(x = appeared, y = log_users, color = score, size = log_books)) +
   geom_point(alpha=0.5) +
   scale_size(range = c(1, 12), name="Log Book Count") +
