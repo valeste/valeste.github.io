@@ -141,7 +141,7 @@ After a quick skim of the data, I have decided that I am interested in
 the correlation of material availability to the number of users over
 time.
 
-## Questions
+### Questions
 
 1.  Are the most popular languages the ones with the most documentation
     out there?
@@ -157,7 +157,7 @@ time.
     abline(v = mean(languages$book_count), col='red', lwd = 3)
     legend("topright", legend = "Mean number of books", col = 'red', lwd = 3)
 
-![image](https://github.com/valeste/valeste.github.io/blob/master/assets/img/2023-03-20-Tidy_files/figure-markdown_strict/exploratory%20plots-1.png)
+![image](https://github.com/valeste/valeste.github.io/blob/master/assets/img/2023-03-20-Tidy_files/figure-markdown_strict/exploratory%20plots-1.jpg?raw=true)
 
     hist(languages$number_of_users,
          breaks = 20,
@@ -166,7 +166,7 @@ time.
     abline(v = mean(languages$number_of_users), col='blue', lwd = 3)
     legend("topright", legend = "Mean number of users", col = 'blue', lwd = 3)
 
-![image](https://github.com/valeste/valeste.github.io/blob/master/assets/img/2023-03-20-Tidy_files/figure-markdown_strict/exploratory%20plots-2.png)
+![image](https://github.com/valeste/valeste.github.io/blob/master/assets/img/2023-03-20-Tidy_files/figure-markdown_strict/exploratory%20plots-2.jpg?raw=true)
 
 Based off of these exploratory plots, it’s clear that we need to do some
 transformation on the continuous data since it’s so skewed. I figured I
@@ -219,7 +219,7 @@ any users. Most of those also had NAs in the columns I wanted to use.
       theme_ipsum()+
       ylab("Log Number of Users")
 
-![image](https://github.com/valeste/valeste.github.io/blob/master/assets/img/2023-03-20-Tidy_files/figure-markdown_strict/explanatory%20plot-1.png)
+![image](https://github.com/valeste/valeste.github.io/blob/master/assets/img/2023-03-20-Tidy_files/figure-markdown_strict/explanatory%20plot-1.jpg?raw=true)
 
     ggplot(languages2, aes(x = appeared, y = log_users, color = score, size = book_count)) +
       geom_point(alpha=0.5) +
@@ -230,7 +230,7 @@ any users. Most of those also had NAs in the columns I wanted to use.
       theme_ipsum()+
       ylab("Log Number of Users")
 
-![image](https://github.com/valeste/valeste.github.io/blob/master/assets/img/2023-03-20-Tidy_files/figure-markdown_strict/explanatory%20plot-2.png)
+![image](https://github.com/valeste/valeste.github.io/blob/master/assets/img/2023-03-20-Tidy_files/figure-markdown_strict/explanatory%20plot-2.jpg?raw=true)
 
 Based off trends in the plot, it seems like the most popular newer
 (appearing after the year 2000) languages are likely to have a website
