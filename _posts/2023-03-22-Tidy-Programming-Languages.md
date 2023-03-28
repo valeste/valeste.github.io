@@ -9,7 +9,9 @@
     languages <- readr::read_csv('https://raw.githubusercontent.com/rfordatascience/tidytuesday/master/data/2023/2023-03-21/languages.csv')
 
 # Exploring the data set:
-
+```
+summary(languages)
+         
     ##    pldb_id             title           description            type          
     ##  Length:4303        Length:4303        Length:4303        Length:4303       
     ##  Class :character   Class :character   Class :character   Class :character  
