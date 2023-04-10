@@ -1,3 +1,11 @@
+---
+layout: post
+title: Tidy Programming Languages
+date: '2023-03-28'
+categories: exercise
+tags: tidy
+---
+
 # Setting up packages and downloading data:
 
     #requirements
