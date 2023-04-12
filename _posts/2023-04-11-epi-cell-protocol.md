@@ -6,7 +6,7 @@ categories: protocol
 tags: protocol
 ---
 
-This draft is version 0.23.04.11.
+This draft is version 0.23.04.12.
 
 # *Materials*
 
@@ -52,7 +52,7 @@ hrs prior to dissection.
 
 In the biosaftey cabinet add together the following:
 
--   500 mL of filtered seawater
+-   500 mL of filtered seawater (~30 ppt / 850-900 mOsmo/kg)
 -   238.8 uL 50 mg/mL stock gentamicin
     -   Gentamicin (477.596 g/mol); 50uM/mL = 23.88ug/mL
 
@@ -63,7 +63,7 @@ cabinet in TPS as well as washing prior to dissection.
 
 In the biosafety cabinet add together the following:
 
--   248 mL filtered seawater
+-   248 mL filtered seawater (~30 ppt / 850-900 mOsmo/kg)
 -   250 uL Amphotericin B (250ug/mL stock solution)
 -   2.5 mL of 100x Penicillin-Streptomycin
 
