@@ -10,3 +10,4 @@ Gemfile.lock
 beautiful-jekyll-theme-*.gem
 .Rproj.user
 .Rhistory
+*.Rmd
