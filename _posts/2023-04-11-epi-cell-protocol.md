@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Epithelial Cell Isolation from Botryllus Schlosseri
+title: Epithelial Cell Isolation from Lab Reared Botryllus Schlosseri
 date: '2023-04-11'
 categories: protocol
 tags: protocol
