@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Epithelial Cell Isolation from Lab Reared Botryllus Schlosseri
+title: Epithelial Cell Isolation from Lab Reared Botryllus schlosseri
 date: '2023-04-11'
 categories: protocol
 tags: protocol
@@ -45,7 +45,7 @@ For all solutions below you will need about 1 L of filtered seawater.
 Note you will need an additional n x 300 mL of FSW where n = number of
 wells you intend to seed.
 
-#### Filtered Seawater - Gentamicin (FSW-G)
+#### Filtered Seawater - 0.05% Gentamicin (FSW-G) 
 
 This solution is essential for the isolation of tunicate individuals 24
 hrs prior to dissection.
@@ -56,7 +56,7 @@ In the biosaftey cabinet add together the following:
 -   238.8 uL 50 mg/mL stock gentamicin
     -   Gentamicin (477.596 g/mol); 50uM/mL = 23.88ug/mL
 
-#### Filtered Seawater - PSA (FSW-PSA)
+#### Filtered Seawater - 1% Pen/Strep & 0.01% Amp B (FSW-PSA)
 
 This solution is used for transferring the excised buds to the biosaftey
 cabinet in TPS as well as washing prior to dissection.
