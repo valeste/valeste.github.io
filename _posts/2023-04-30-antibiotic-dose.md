@@ -57,10 +57,10 @@ Most notably:
 
 Here the blue color coded buds in wells 1-3 of both plate 1 and 2 are from colony DM20230420_01, whereas the orange color coded buds are from colony DM20230420_02. Plate 1 contains the "lower" dosage of antibiotics while Plate 2 contains the "higher" dosage. Furthermore, for colony DM20230420_01, wells were seeded with twice as much tissue to see if tissue density had an effect on the growth rate of epithelial cells.
 
-# Imaged tissue 04-21-2023 
+# Imaged tissue day of explant: 04-21-2023 
 In order to get a reference of the tissue prior to cell growth I took a few example images.
 
-# Imaged tissue 04-24-2023
+# Imaged tissue three days later: 04-24-2023
 Three days after seeding the tissue, cell growth and contamination were qualitatively evaluated using the Evos XL Core inverted microscope. 
 
 Most notably:
