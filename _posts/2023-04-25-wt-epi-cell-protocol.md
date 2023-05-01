@@ -35,11 +35,11 @@ Isolate epithelial tissue from wild *Botryllus schlosseri*. This means the colon
 - 15 mL centrifuge tubes (number dependent on how many samples)
 - 75 ppt filtered seawater (FSW)
 Mix together the below two solutions:
-  - To 500 mL of MilliQ water
+To 500 mL of MilliQ water
     - 54.68 g NaCl 
     - 1.648 g KCl 
     - 2.884 g CaCl2·2H2O
-  - To 500 mL of MilliQ water
+To 500 mL of MilliQ water
     - 22.28 g MgSO4·7H2O 
     - 12.2 g MgCl2·6H2O 
 - 70% ethanol
