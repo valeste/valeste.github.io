@@ -9,7 +9,7 @@ tags:
 # Tunicate culture media (TCM) forulations
 Formulated two versions of tunicate culture media (TCM) to evaluate whether it would be better to use a higher dose of antibiotics relative to what is described in 
 
-[Version 1 TCM](https://valeste.github.io/2023-04-25-wt-epi-cell-protocol/)
+[Version 1 TCM](https://valeste.github.io/2023-04-30-wt-epi-cell-protocol/)
 This version of TCM follows the instructions in the linked notebook post. Contains the following ratios of solution:
 
 - 63.5% L-15 media
@@ -19,7 +19,7 @@ This version of TCM follows the instructions in the linked notebook post. Contai
 - 1.4% Penicillin-Streptomycin (100x stock)
 - 0.1% Amphotericin B (250 ug/mL stock)
 
-[Version 2 TCM](https://valeste.github.io/2023-04-11-epi-cell-protocol/)
+Version 2 TCM
 
 This version of TCM follows the instructions of it's linked post with the following ratios of solutions:
 
@@ -42,7 +42,7 @@ I dissected buds from two colonies collected on 4/20/23.
 
 # Overview of dissection workflow
 
-The overall protocol followed can be viewed in the [this](https://valeste.github.io/2023-04-25-wt-epi-cell-protocol/) notebook post.
+The overall protocol followed can be viewed in the [this](https://valeste.github.io/2023-04-30-wt-epi-cell-protocol/) notebook post.
 
 Most notably:
 1. Colonies were kept in ASW-G (0.05% gentamicin) for 21 hours prior to dissection. 
