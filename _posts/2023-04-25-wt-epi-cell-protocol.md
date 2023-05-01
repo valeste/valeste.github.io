@@ -6,10 +6,10 @@ categories: protocol
 tags: protocol
 ---
 
-This draft is version 0.23.04.19.
+This draft is version 0.30.04.19.
 
 # *Objective*
-Isolate epithelial tissue from wild *Botryllus schlosseri*. This means the colonies have not been introduced to recirculating seawater system at UWT and instead are dissected withing the same 5 hour window that they are removed from sampling locations. To adjust for the lack of quarantine period prior to dissections in the original protocol, we have doubled the concentration of antibiotics throughout this procedure.
+Isolate epithelial tissue from wild *Botryllus schlosseri*. This means the colonies have not been introduced to recirculating seawater system at UWT and instead are dissected withing the same 5 hour window that they are removed from sampling locations.
 
 # *Materials*
 
@@ -33,17 +33,8 @@ Isolate epithelial tissue from wild *Botryllus schlosseri*. This means the colon
 
 - BH Supplies Insulin Syringes U-100 31G 1ml/cc 5/16” (8mm)
 - 15 mL centrifuge tubes (number dependent on how many samples)
-- 75 ppt filtered seawater (FSW)
-Mix together the below two solutions:
-To 500 mL of MilliQ water
-    - 54.68 g NaCl 
-    - 1.648 g KCl 
-    - 2.884 g CaCl2·2H2O
-To 500 mL of MilliQ water
-    - 22.28 g MgSO4·7H2O 
-    - 12.2 g MgCl2·6H2O 
-- 70% ethanol
 - Corning 6 well plates
+- 60 mm petri dishes
 - 0.22 um filter units
 - 50 mL, 10 mL, and 5 mL serological pipettes
 - 1000 uL pipette tips
@@ -51,6 +42,9 @@ To 500 mL of MilliQ water
 - Penicillin-Streptomycin (100x stock)
 - Amphotericin-B (250 ug/mL stock)
 - Gentamicin (50 mg/mL stock)
+- 75 ppt filtered seawater (FSW)
+- 30 ppt artificial seawater (ASW)
+- 70% ethanol
 
 ### Solutions
 
@@ -88,8 +82,7 @@ In the biosaftey cabinet add together the following:
 
 #### Artificial Seawater - 1% Pen/Strep & 0.01% Amp B (ASW-PSA)
 
-This solution is used for transferring the excised buds to the biosaftey
-cabinet in TPS as well as washing during dissection.
+This solution is used as the media in which the tunicate is submerged during dissection.
 
 In the biosafety cabinet add together the following:
 
@@ -102,13 +95,11 @@ In the biosafety cabinet add together the following:
 In the biosafety cabinet add together:
 
 - 45.6 mL of L-15 media
-- 21.7 mL of FSW (to adjust media milli-osmolality from ~300 mOsmo/kg to ~850mOsmo/kg)
+- 21.7 mL of FSW (to adjust media milli-osmolality from ~300 mOsmo/kg to ~850 mOsmo/kg)
 - 2.4 mL fetal bovine serum (FBS) 
 - 1 mL HEPES (20 mMol/L)
 - 1 mL Pen/Strep (100x)
 - 100 uL Amphotericin B (250 ug/mL) 
-
-You only need 2 mL per well of TCM so making this amount should give you enough for 25 wells.
 
 # *Epithelial Cell Isolation*
 
@@ -120,22 +111,22 @@ following the below procedures.
 -  Using [this staging
 method](https://valeste.github.io/2023-04-07-Devo-Bsc/), identify
 individuals with zooids at stage C2, average zooid size of 300 μm,
-colonies that are large (~200 zooids embedded in tunic), and appear
-health according to health scoring metric.
+colonies that are relatively large (~200 zooids embedded in tunic), and appear health according to health scoring metric.
 
 - Remove individuals from recirculating seawater system and place
-each individual separate containers filled with 100 mL of ASW-G solution
-for 24 hours, starving them for that time period. Wild colonies will still be attached to substrate (such as mussel), the substrate and colony are both placed in ASW-G dip.
+each individual separate glass mason jars filled with 100 mL of ASW-G solution for 24 hours, starving them for that time period. Wild colonies will still be attached to substrate (such as mussel), the substrate and colony are both placed in ASW-G dip. Parafilm the top of the jar and puncture holes using sharp forceps. Place the jar in the reservoir of the recirculating system to maintain soln. at 18 C.
 
 - Prepare coated plates as needed for the next day.
 
 #### 2. Bud excsion
 
-- Remove colonies from ASW-G
+- Remove colonies from ASW-G.
 
-- Wash colonies and substrate for 10 seconds with 70% ethanol
+- Wash colonies and substrate for 10 seconds with 70% ethanol.
 
 - Using a fresh razor blade, carefully remove colony from substrate. Make sure to not puncture or cut the tunic.
+
+- Rinse the colony again fro an additional 20 seconds with 70% ethanol.
 
 - Immerse colony in 15 cm diameter, glass dish filled
 with ~20 mL of ASW-PSA. For each new colony microdissection, rinse the
@@ -143,31 +134,31 @@ with ~20 mL of ASW-PSA. For each new colony microdissection, rinse the
 rinse of ASW-PSA prior to refilling plate with more ASW-PSA.
 
 - Under stereomicroscope on lab bench take picture of colony with
-Excelis camera
+Excelis camera.
 
 - Using a pair of 31G syringe needles, peel open the tunic and remove
 buds. Buds in earlier stages of development (stage A) are more embedded in the tunic than degrading ones (TO). Be sure to not tear the bud itself, this can be done by gently carving the tunic around the bud and then using a blunt portion of the needle to roll the bud out.
 Every time a bud is removed, place it in a cell strainer that itself is also immersed in the same 20 mL of ASW-PSA. Use a clicker to keep track of the number of buds you collected.
   
-- Once you have collected a group of 5 or 10 buds in the cell strainer, rinse all buds for 20 seconds with 70% ethanol followed by a 5 second rinse with ASW-PSA.
+- Once you have collected a group of 5 or 10 buds in the cell strainer, rinse all buds for 5 seconds with 70% ethanol followed by a 5 second rinse with ASW-PSA.
 
-- Using sterile curved forceps, transfer the group of 5 or 10 buds to a labeled, 15 mL conical tube containing 3 mL of ASW-PSA.
+- Using sterile curved forceps, transfer the group of 5 or 10 buds to a labeled, 1.5 mL tube containing 1 mL of TCM.
 
-- Transfer all conical tubes containing bud tissue to the biosaftey
+- Transfer all tubes containing bud tissue to the biosaftey
 cabinet in TPS for cell seeding.
 
 #### 3. Seeding tissue and cell maintenance
 
-- In the biosaftey cabinet, pour out contents of one conical tube
-into a 60 mM petri dish. Swirl around the conical tube to get all the buds back into suspension and pour quickly. Buds stick to plastic **very** well so it is important to be fast in this process or the buds will adhere to the inside of the conical tube and will be difficult to remove.
+- In the biosaftey cabinet, pour out contents of one tube
+into a 60 mm petri dish. Using a 1000 uL pipette tip aspirate into the solution to get the buds back into suspension and pour quickly.
 
-- Using a 1000 uL pipette tip (has larger opening) transfer buds one at a time to 35 mM well on 6 well plate. Make sure to transfer only a small amount of liquid (about a drop) per bud.
+- Using the same 1000 uL pipette tip transfer buds one at a time to a fresh 60 mm petri dish. Make sure to transfer only a small amount of liquid (about a drop) per bud.
 
-- Using the same pipette tip, remove any excess ASW-PSA from the 35 mM well. 
+- Using the same pipette tip, remove any excess liquid from the culturing dish.
 
 - While you repeat the above two steps with your other samples, let the wells you previously seeded to dry for about ~5 minutes or until there is no visible liquid left.
 
-- Once all the wells are dry, using a serological pipette take n*2 mL (where n = the number of wells) and add 2mL of TCM to each well. Be sure to not touch the tip of the pipette to the wells and to have the lowest flow possible when adding in media to not agitate the tissue and have it unadhere from plate.
+- Once all the wells are dry, using a serological pipette take n*3 mL (where n = the number of dishes) and add 3mL of TCM to each well. Be sure to not touch the tip of the pipette to the wells and to have the lowest flow possible when adding in media to not agitate the tissue and have it unadhere from plate.
 
 - Incubate cells at 20 C 
 
