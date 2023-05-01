@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Epithelial Cell Isolation from Wild Botryllus schlosseri
-date: '2023-04-25'
+date: '2023-04-30'
 categories: protocol
 tags: protocol
 ---

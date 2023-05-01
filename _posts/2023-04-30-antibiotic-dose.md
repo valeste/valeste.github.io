@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Evaluating effects of antibiotic dose on epithelial cell growth
-date: '2023-04-25'
+date: '2023-04-30'
 categories: 
 tags: 
 ---
@@ -57,14 +57,28 @@ Most notably:
 
 Here the blue color coded buds in wells 1-3 of both plate 1 and 2 are from colony DM20230420_01, whereas the orange color coded buds are from colony DM20230420_02. Plate 1 contains the "lower" dosage of antibiotics while Plate 2 contains the "higher" dosage. Furthermore, for colony DM20230420_01, wells were seeded with twice as much tissue to see if tissue density had an effect on the growth rate of epithelial cells.
 
-# Imaged tissue day of explant: 04-21-2023 
-In order to get a reference of the tissue prior to cell growth I took a few example images.
+# Colony DM20230420_01 just prior to dissection
+Here we see that the colony is in stage A2. For the purposes of following the protocol, we are disregarding the ideal stage.
 
-# Imaged tissue three days later: 04-24-2023
+![Botryllus schlosseri](https://github.com/valeste/valeste.github.io/blob/master/assets/img/20230424_t4_bsc_prim/DM20230420_01-002.jpg?raw=true)
+
+# Cell morphology right after explanting tissue 
+In order to get a reference of the tissue prior to cell growth I took a few example images. Below we see that the tissue forms what appears to be a monolayer in the sense that the tissue is thin and somewhat transparent.
+
+![initial tissue Botryllus](https://github.com/valeste/valeste.github.io/blob/master/assets/img/20230424_t4_bsc_prim/dm20230420_1.1.2_420.jpeg?raw=true)
+
+# 3 days post explant (dpe) monolayer growth and possible contamination
 Three days after seeding the tissue, cell growth and contamination were qualitatively evaluated using the Evos XL Core inverted microscope. 
 
 Most notably:
-- All wells from plate 1, with the lower dosage of antibiotics all had an unidentifiable but relatively dense distribution of spherical green clumps of cells. Plate 2 appears to have these clumps as well but a much lower frequency.
+- All wells from plate 1, with the lower dosage of antibiotics all had an unidentifiable but relatively dense distribution of spherical green clumps of cells. \
 
+![contamination in wells](https://github.com/valeste/valeste.github.io/blob/master/assets/img/20230424_t4_bsc_prim/dm20230420_2.1.1_042_contaminate.jpeg?raw=true)
+
+- Colony DM20230420_02 put out monolayer growth in several wells but most frequently in the last seeded well. I believe this was influenced by the differences in holding time in the ASW-PSA solution between removal from the tunic and seeding onto the plate. A reduced amount of time outside of a cellular context whether that be *in vivo* or *in vitro* influenced the ability for tissue pieces to put out monolayers.
+
+As seen in the image the monolayer growth is distinct from the original tissue in its consistent cell shape, transperency, and dynamic appearance of 'movement' outwards.
+
+![monolayer growth in botryllus cells](https://github.com/valeste/valeste.github.io/blob/master/assets/img/20230424_t4_bsc_prim/dm20230420_2.3.2_0424.jpeg?raw=true)
 
 
